@@ -6,6 +6,7 @@ import Categories from "./components/Categories/Categories";
 import Products from "./components/Products/Products";
 import "./App.css";
 import Campaigns from "./components/Campaigns/Campaigns";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Categories />
       <Products />
       <Campaigns />
+      <Products />
+      <Blogs />
       <Policy />
       <Footer />
     </>
