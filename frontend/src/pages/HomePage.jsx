@@ -1,4 +1,3 @@
-import React from "react";
 import Blogs from "../components/Blogs/Blogs";
 import Brands from "../components/Brands/Brands";
 import Campaigns from "../components/Campaigns/Campaigns";
@@ -12,7 +11,7 @@ import Sliders from "../components/Slider/Sliders";
 
 const HomePage = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
       <Sliders />
       <Categories />
@@ -24,7 +23,7 @@ const HomePage = () => {
       <CampaignSingle />
       <Policy />
       <Footer />
-    </React.Fragment>
+    </>
   );
 };
 
